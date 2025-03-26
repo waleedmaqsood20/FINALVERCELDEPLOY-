@@ -1,0 +1,50 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env.local
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+test/
+tests/
+test_*.py
+pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Large models and data (we'll load these dynamically)
+models/
+.huggingface/
+.cache/
+.torch/
+.pytorch/
+
+# Git folders
+.git/
+.github/
+.gitignore
+
+# Other
+.DS_Store
+*.log
+
+# Additional files to exclude
+test_api.py
+README.md
+.env.example 

@@ -1,0 +1,8 @@
+# Ignore large files
+*.pt
+*.bin
+*.h5
+*.zip
+*.csv
+__pycache__/
+venv/
